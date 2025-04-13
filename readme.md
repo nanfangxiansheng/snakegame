@@ -4,7 +4,7 @@
 
 This design is verified on EGO1 xilinx development board and VGA screen ,mainly worked on vivado 2021.
 
-![](.\ego1.png)
+![snakegame/ego1.png at main · nanfangxiansheng/snakegame](https://github.com/nanfangxiansheng/snakegame/blob/main/ego1.png)
 
 
 
