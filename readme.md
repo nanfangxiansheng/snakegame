@@ -4,11 +4,13 @@
 
 This design is verified on EGO1 xilinx development board and VGA screen ,mainly worked on vivado 2021.
 
-![image-20250413204536364](C:\Users\26871\AppData\Roaming\Typora\typora-user-images\image-20250413204536364.png)
+![](C:\Users\26871\Documents\GitHub\snakegame\ego1.png)
+
+
 
 The main idea of this project can be described in the below  figure:
 
-![image-20250413204806464](C:\Users\26871\AppData\Roaming\Typora\typora-user-images\image-20250413204806464.png)
+![](C:\Users\26871\Documents\GitHub\snakegame\main describe.png)
 
 This version can finish jobs including snake 's  move ,eat,die and score display as well as keys control and difficulty set.
 
