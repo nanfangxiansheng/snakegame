@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Mar 30 00:12:34 2025
+# Process ID: 980
+# Current directory: D:/vivdo_project/snake
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21524 D:\vivdo_project\snake\snake.xpr
+# Log file: D:/vivdo_project/snake/vivado.log
+# Journal file: D:/vivdo_project/snake\vivado.jou
+# Running On: augustus, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 16, Host memory: 16898 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivdo_project/snake/snake.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+add_files -norecurse D:/vivdo_project/managed_ip_project/managed_ip_project.cache/ip/2021.2/9/f/9f32a3323dfaa039/9f32a3323dfaa039.xci
+export_ip_user_files -of_objects  [get_files  D:/vivdo_project/managed_ip_project/managed_ip_project.cache/ip/2021.2/9/f/9f32a3323dfaa039/9f32a3323dfaa039.xci] -lib_map_path [list {modelsim=D:/vivdo_project/snake/snake.cache/compile_simlib/modelsim} {questa=D:/vivdo_project/snake/snake.cache/compile_simlib/questa} {riviera=D:/vivdo_project/snake/snake.cache/compile_simlib/riviera} {activehdl=D:/vivdo_project/snake/snake.cache/compile_simlib/activehdl}] -force -quiet
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+close_project
+open_project D:/vivdo_project/managed_ip_project/managed_ip_project.xpr
