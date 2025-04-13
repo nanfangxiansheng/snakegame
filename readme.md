@@ -10,13 +10,13 @@ This design is verified on EGO1 xilinx development board and VGA screen ,mainly 
 
 The main idea of this project can be described in the below  figure:
 
-![](C:\Users\26871\Documents\GitHub\snakegame\main describe.png)
+![snakegame/main describe.png at main · nanfangxiansheng/snakegame](https://github.com/nanfangxiansheng/snakegame/blob/main/main describe.png)
 
 This version can finish jobs including snake 's  move ,eat,die and score display as well as keys control and difficulty set.
 
 The control of screen based on VGA communication technology is showed below:
 
-![image-20250413205523764](C:\Users\26871\AppData\Roaming\Typora\typora-user-images\image-20250413205523764.png)
+![snakegame/VGA.png at main · nanfangxiansheng/snakegame](https://github.com/nanfangxiansheng/snakegame/blob/main/VGA.png)
 
 ## Transplant help 
 
@@ -70,6 +70,6 @@ set_property -dict {PACKAGE_PIN N4 IOSTANDARD LVCMOS33} [get_ports {switch1}]
 
  when you need to design a soft ip core of PLL to provide stable clock (20MHZ) to the VGA control terminal. You need to design like following:
 
-![image-20250413205842169](C:\Users\26871\AppData\Roaming\Typora\typora-user-images\image-20250413205842169.png)
+![snakegame/PLL.png at main · nanfangxiansheng/snakegame](https://github.com/nanfangxiansheng/snakegame/blob/main/PLL.png)
 
 clock in :always choose 100MHZ, clock out: should be 25MHZ.
