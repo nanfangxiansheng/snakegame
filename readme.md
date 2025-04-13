@@ -10,7 +10,7 @@ This design is verified on EGO1 xilinx development board and VGA screen ,mainly 
 
 The main idea of this project can be described in the below  figure:
 
-![snakegame/main describe.png at main · nanfangxiansheng/snakegame](https://github.com/nanfangxiansheng/snakegame/blob/main/main describe.png)
+![snakegame/maindescribe.png at main · nanfangxiansheng/snakegame](https://github.com/nanfangxiansheng/snakegame/blob/main/maindescribe.png)
 
 This version can finish jobs including snake 's  move ,eat,die and score display as well as keys control and difficulty set.
 
